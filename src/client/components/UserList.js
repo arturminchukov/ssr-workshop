@@ -14,6 +14,7 @@ class UsersList extends Component {
     }
 
     render() {
+        debugger;
         return (
             <div>
                 Here's a big list of users:

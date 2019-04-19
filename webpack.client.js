@@ -3,7 +3,9 @@ const merge = require('webpack-merge');
 const baseConfig = require('./webpack.base.js');
 
 const config = {
+    mode: 'development',
     entry: './src/client/client.js',
+    devtool: 'inline-source-map',
 
     output: {
         filename: 'bundle.js',
