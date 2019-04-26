@@ -4,4 +4,6 @@ const Home = () => {
     return <div> I', the SsT home component </div>;
 };
 
-export default Home;
+export default {
+    component: Home
+};
